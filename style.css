@@ -34,9 +34,11 @@ img {
 	display: block;
 	position: relative;
 	margin: auto;
-	max-width: 60%;
+	max-width: 80ch;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
 	text-align: center;
 }
 
@@ -46,20 +48,25 @@ img {
 	padding-bottom: 40px;
 }
 
-.title {
+h1 {
 	display: block;
+	margin: 0px;
 	padding: 16px;
 	text-align: center;
 	color: white;
 	font-size: 32px;
+	font-weight: normal;
+	letter-spacing: 1.5;
 }
 
-.headline {
+h2 {
 	display: block;
+	margin: 0px;
 	padding: 8px;
 	text-align: center;
 	color: white;
 	font-size: 24px;
+	font-weight: normal;
 }
 
 .subtitle {
@@ -68,7 +75,7 @@ img {
 	color: white;
 	opacity: 0.75;
 	font-size: 17px;
-	line-height: 25px;
+	line-height: 1.5;
 }
 
 .download-button {
