@@ -86,23 +86,43 @@ h2 {
 }
 
 .detail-row {
-	display: block;
+	position: relative;
+	display: flex;
 	text-align: left;
 	padding: 16px;
 	line-height: 1.5;
 }
 
+.detail-row:after {
+	content: "";
+	display: block;
+	width: 50px;
+	position: absolute;
+	bottom: 0;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.1);
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 .detail-row div {
-	width: 100px;
-	display: inline-block;
-	vertical-align: top;
 	text-align: right;
-	padding-right: 16px;
+	padding: 8px;
+}
+
+.detail-row div:first-of-type {
+	flex: 1;
+}
+
+.detail-row div:last-of-type {
+	flex: 4;
+	text-align: left;
 }
 
 .detail-row div .version {
 	display: block;
 }
+
 
 .detail-row .footnote {
 	font-size: 0.7em;
@@ -117,16 +137,18 @@ h2 {
 ul {
  	text-align: left;
  	list-style: none;
- 	list-style-position: 0;
  	padding: 0px;
  	margin: 0px;
 }
 
 li {
 	padding: 0px;
-	margin: 0px;
-	font-size: 1em;
+	padding-left: 1em;
+	text-indent: -1em;
 	opacity: 0.6;
 }
 
-li:before { content: "- " };
+li:before { 
+	content: "- ";
+	padding-right: 5px;
+};
