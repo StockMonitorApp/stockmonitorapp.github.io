@@ -1,0 +1,81 @@
+[
+	{
+		"version": "1.0.0",
+		"date": "7. Dec 2020",
+		"changes": [
+			"Initial release of StockMonitor"
+		]
+	},
+	{
+		"version": "1.1.0",
+		"date": "14. Dec 2020",
+		"changes": [
+			"If your selected stock name is too long, you can choose an alias",
+			"Decide on your own where the stake value is displayed",
+			"Set the trend threshold to only indicate significant changes",
+			"A new preview of the menu bar app",
+			"Changed availability to macOS 11 and later"
+		]
+	},
+	{
+		"version": "1.1.1",
+		"date": "14. Dec 2020",
+		"changes": [
+			"Changed availability back to macOS 10.15 and later"
+		]
+	},
+	{
+		"version": "1.2.0",
+		"date": "19. Dec 2020",
+		"changes": [
+			"The preferences now appear in the Dock when opened",
+			"Improved colors for readability in the menu bar app"
+		]
+	},
+	{
+		"version": "1.2.1",
+		"date": "29. Dec 2020",
+		"changes": [
+			"Fixes the appearance on certain desktop backgrounds"
+		]
+	},
+	{
+		"version": "1.3.0",
+		"date": "3. Jan 2021",
+		"changes": [
+			"You can now show the trend as value or percentage",
+			"Let the app start automatically at login"
+		]
+	},
+	{
+		"version": "1.3.1",
+		"date": "17. Jan 2021",
+		"changes": [
+			"Fixes an issue where the size of the arrow symbol is to large",
+			"Blocks the preferences window when opening the about window"
+		]
+	},
+	{
+		"version": "1.3.3",
+		"date": "27. Jan 2021",
+		"changes": [
+			"Reduced number of requests to our servers to keep them stable"
+		]
+	},
+	{
+		"version": "1.3.4",
+		"date": "5. Feb 2021",
+		"changes": [
+			"Fixes an issue where the option \"Launch StockMonitor at login\" would have no effect"
+		]
+	},
+	{
+		"version": "1.4.0",
+		"date": "21. Feb 2021",
+		"changes": [
+			"Rearranged settings UI",
+			"Price format is now based on system preference",
+			"Several small bug fixes"
+		]
+	}
+]

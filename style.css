@@ -83,6 +83,7 @@ h2 {
 	width: 45%;
 	max-width: 480px;
 	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .detail-row {
@@ -132,23 +133,21 @@ h2 {
 
 .detail-row ul {
 	display: inline-block;
-}
-
-ul {
  	text-align: left;
  	list-style: none;
  	padding: 0px;
  	margin: 0px;
 }
 
-li {
+.detail-row li {
+	font-size: 0.9em;
 	padding: 0px;
 	padding-left: 1em;
 	text-indent: -1em;
 	opacity: 0.6;
 }
 
-li:before { 
+.detail-row li:before { 
 	content: "- ";
 	padding-right: 5px;
 };
