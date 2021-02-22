@@ -62,7 +62,7 @@
 			"Fixes an issue where the size of the arrow symbol is too large",
 			"Blocks the preferences window when opening the about window"
 		]
-	}
+	},
 	{
 		"version": "1.3.3",
 		"date": "27. Jan 2021",
