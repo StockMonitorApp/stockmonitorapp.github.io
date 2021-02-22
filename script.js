@@ -47,13 +47,14 @@ function renderScreenshots(screenshots) {
 }
 
 function renderScreenshot(screenshot) {
-	const fileName = screenshot.name + "." + screenshot.file_extension
-	const fileNameTwo = screenshot.name + "@2x." + screenshot.file_extension + " 2x"
-	const html = '<img src="./images/' 
+	const path = './images/'
+	const fileName = path + screenshot.name + "." + screenshot.file_extension
+	const fileNameTwo = path + screenshot.name + "@2x." + screenshot.file_extension + " 2x"
+	const html = '<img src="' 
 		+ fileName
 		+ '" srcset="'
 		+ fileName
-		+ ','
+		+ ', '
 		+ fileNameTwo
 		+ '" class="screenshot" alt="'
 		+ screenshot.alt 
