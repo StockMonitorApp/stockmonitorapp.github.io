@@ -73,6 +73,17 @@ h2 {
 	line-height: 1.5;
 }
 
+#message {
+	padding-top: 16px;
+}
+
+#message .container {
+	color: black;
+	/*border: 1px solid #ff0000;*/
+	background-color: #ff6666;
+	border-radius: 16px;
+}
+
 .download-button {
 	display: block;
 	padding: 16px;
