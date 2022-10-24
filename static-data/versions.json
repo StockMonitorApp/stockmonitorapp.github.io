@@ -85,5 +85,14 @@
 			"Price format is now based on system preference",
 			"Several small bug fixes"
 		]
+	},
+	{
+		"version": "2.0.0",
+		"date": "24. Oct 2022",
+		"changes": [
+			"Updated design",
+			"Create a list of stocks in the app",
+			"Add multiple stocks to the menu bar"
+		]
 	}
 ]
