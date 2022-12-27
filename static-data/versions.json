@@ -94,5 +94,44 @@
 			"Create a list of stocks in the app",
 			"Add multiple stocks to the menu bar"
 		]
+	},
+	{
+		"version": "2.0.1",
+		"date": "5. Nov 2022",
+		"changes": [
+			"Bug fixes",
+			"Fix several UI issues"
+		]
+	},
+	{
+		"version": "2.0.2",
+		"date": "9. Nov 2022",
+		"changes": [
+			"Bug fixes",
+			"Fix unlock button showing up after purchase"
+		]
+	},
+	{
+		"version": "2.0.3",
+		"date": "15. Nov 2022",
+		"changes": [
+			"Bug fixes",
+			"Fix failing migration"
+		]
+	},
+	{
+		"version": "2.0.4",
+		"date": "8. Dec 2022",
+		"changes": [
+			"Bug fixes",
+			"Add one time purchase"
+		]
+	},
+	{
+		"version": "2.0.5",
+		"date": "12. Dec 2022",
+		"changes": [
+			"Add restore button"
+		]
 	}
 ]
