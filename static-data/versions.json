@@ -133,5 +133,14 @@
 		"changes": [
 			"Add restore button"
 		]
+	},
+	{
+		"version": "2.1.0",
+		"date": "29. Dec 2022",
+		"changes": [
+			"Add currency options",
+			"Show activate pro button more prominent",
+			"Add alert when activating a stock and menu bar app is not running in background"
+		]
 	}
 ]
