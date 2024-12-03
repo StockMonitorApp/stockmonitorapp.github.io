@@ -1,16 +1,16 @@
 [
 	{
-		"version": "3.0.1",
-		"date": "03. Dec 2024",
-		"changes": [
-			"Fixes a bug where activated stocks in the menu bar would disappear after restarting the app."
-		]
-	},
-	{
 		"version": "3.0.0",
 		"date": "27. Nov 2024",
 		"changes": [
 			"Re-launch of StockMonitor"
+		]
+	},
+	{
+		"version": "3.0.1",
+		"date": "03. Dec 2024",
+		"changes": [
+			"Fixes a bug where activated stocks in the menu bar would disappear after restarting the app."
 		]
 	}
 ]
