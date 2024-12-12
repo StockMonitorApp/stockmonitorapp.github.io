@@ -17,7 +17,10 @@
 		"version": "3.1",
 		"date": "13. Dec 2024",
 		"changes": [
-			"- Preview when editing stock details\n- Restructuring of the settings\n- Show exchange market, type, and currency\n- Show connection issues if they occur"
+			"Preview when editing stock details",
+			"Restructuring of the settings",
+			"Show exchange market, type, and currency",
+			"Show connection issues if they occur"
 		]
 	}
 ]
