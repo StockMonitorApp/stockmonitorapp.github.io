@@ -90,7 +90,7 @@ h2 {
 .subtitle {
   display: block;
   padding: 16px;
-  opacity: 0.6;
+/*  opacity: 0.6;*/
   font-size: 17px;
   line-height: 1.5;
 }
@@ -181,4 +181,8 @@ h2 {
 .detail-row li:before {
   content: "- ";
   padding-right: 5px;
+}
+
+.subtitle h4 {
+  color: #ffffff;
 }
