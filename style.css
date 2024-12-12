@@ -186,7 +186,10 @@ h2 {
   color: #ffffff;
 }
 
+#screenshots {
+  max-width: 100%;
+}
+
 #features {
   max-width: 40ch;
-
 }
