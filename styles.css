@@ -73,7 +73,7 @@ h1 {
   margin: 0px;
   padding: 16px;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: normal;
   letter-spacing: 1.5;
 }
@@ -83,7 +83,7 @@ h2 {
   margin: 0px;
   padding: 8px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: normal;
 }
 
@@ -182,7 +182,7 @@ h2 {
   padding-right: 5px;
 }
 
-.subtitle h4 {
+.subtitle h3 {
   color: #ffffff;
 }
 
