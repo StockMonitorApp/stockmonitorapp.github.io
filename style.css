@@ -191,5 +191,28 @@ h2 {
 }
 
 #features {
-  max-width: 40ch;
+  max-width: 100%;
 }
+
+.feature-row {
+  display: block;
+}
+
+.feature-item {
+  display: inline-block;
+  width: 40ch;
+  margin: 30px;
+  vertical-align: top;
+}
+
+.review-title {
+  font-size: 1.5em;
+  display: block;
+  margin: 10px;
+}
+
+.review-text {
+  color: #ccc;
+  display: block;
+}
+
