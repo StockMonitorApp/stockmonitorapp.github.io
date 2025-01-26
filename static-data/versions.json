@@ -7,13 +7,6 @@
 		]
 	},
 	{
-		"version": "3.0.1",
-		"date": "03. Dec 2024",
-		"changes": [
-			"Fixes a bug where activated stocks in the menu bar would disappear after restarting the app."
-		]
-	},
-	{
 		"version": "3.1",
 		"date": "13. Dec 2024",
 		"changes": [
@@ -24,18 +17,21 @@
 		]
 	},
 	{
-		"version": "3.1.1",
-		"date": "17. Dec 2024",
-		"changes": [
-			"Fixes a UI bug."
-		]
-	},
-	{
 		"version": "3.2",
 		"date": "10. Jan 2025",
 		"changes": [
 			"Redesigned Pro access view",
 			"Newly added stocks will automatically appear in the menu bar"
+		]
+	},
+	{
+		"version": "3.3",
+		"date": "26. Jan 2025",
+		"changes": [
+			"Welcome screen",
+			"You can now decide how to quit the app"
+			"Redesigned search view",
+			"Edit and delete button are now in the tool bar"
 		]
 	}
 ]
