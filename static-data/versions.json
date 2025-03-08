@@ -45,8 +45,8 @@
 		"version": "3.5",
 		"date": "09. Mar 2025",
 		"changes": [
-			"The stock details have a completley new look"
-			"The in-app menu is now showing the stock type, like stock, ETF, Fund, ..."
+			"The stock details have a completley new look",
+			"The in-app menu is now showing the stock type, like stock, ETF, Fund, ...",
 			"The search has a report button if you don't find your stocks",
 			"We've added an option to disable colors for the menu bar items"
 		]
