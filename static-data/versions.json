@@ -1,6 +1,6 @@
 [
 	{
-		"version": "3.0.0",
+		"version": "3.0",
 		"date": "27. Nov 2024",
 		"changes": [
 			"Re-launch of StockMonitor"
@@ -32,6 +32,23 @@
 			"You can now decide how to quit the app",
 			"Redesigned search view",
 			"Edit and delete button are now in the tool bar"
+		]
+	},
+	{
+		"version": "3.4",
+		"date": "23. Feb 2025",
+		"changes": [
+			"Manage your stocks from the menu bar directly"
+		]
+	},
+	{
+		"version": "3.5",
+		"date": "09. Mar 2025",
+		"changes": [
+			"The stock details have a completley new look"
+			"The in-app menu is now showing the stock type, like stock, ETF, Fund, ..."
+			"The search has a report button if you don't find your stocks",
+			"We've added an option to disable colors for the menu bar items"
 		]
 	}
 ]

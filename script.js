@@ -33,32 +33,3 @@ function renderUpdate(update) {
 	html += '</ul></div></div>'
 	document.getElementById("versions").innerHTML += html
 }
-
-function loadScreenshots() {
-	loadJSONFile('./static-data/screenshots.json', function(content) {
-		renderScreenshots(content)
-	})
-}
-
-function renderScreenshots(screenshots) {
-	for (var i = 0; i <= screenshots.length - 1; i++) {
-		renderScreenshot(screenshots[i])
-	}	
-}
-
-function renderScreenshot(screenshot) {
-	const path = './images/'
-	const fileName = path + screenshot.name + "." + screenshot.file_extension
-	const fileNameTwo = path + screenshot.name + "@2x." + screenshot.file_extension + " 2x"
-	const html = '<img src="' 
-		+ fileName
-		+ '" srcset="'
-		+ fileName
-		+ ', '
-		+ fileNameTwo
-		+ '" class="screenshot" alt="'
-		+ screenshot.alt 
-		+ '" />'
-	document.getElementById("screenshots").innerHTML += html
-
-}
